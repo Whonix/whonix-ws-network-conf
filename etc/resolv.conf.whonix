@@ -11,3 +11,4 @@
 
 ## IP HARDCODED unfortunately.
 nameserver 10.152.152.10
+nameserver fd19:c33d:88bc::10
