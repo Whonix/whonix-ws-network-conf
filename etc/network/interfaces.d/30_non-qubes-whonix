@@ -52,3 +52,8 @@ iface eth0 inet static
 ## odd features, such as "tell me the IP of your upstream router".
 #auto eth0
 #iface eth0 inet dhcp
+
+iface eth0 inet6 static
+       address fd19:c33d:88bc::11
+       gateway fd19:c33d:88bc::10
+       netmask 96
